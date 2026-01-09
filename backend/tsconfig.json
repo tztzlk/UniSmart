@@ -1,0 +1,33 @@
+{
+    "ts-node": {
+        "files": true,
+        "transpileOnly": true
+    },
+    "compilerOptions": {
+        "allowJs": true,
+        "rootDir": "./src",
+        "declaration": true,
+        "emitDeclarationOnly": true,
+        "composite": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "downlevelIteration": true,
+        "forceConsistentCasingInFileNames": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "skipLibCheck": true,
+       
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "inlineSources": true,
+        "isolatedModules": false,
+        "moduleResolution": "Node10",
+        "ignoreDeprecations": "6.0",
+        "lib": ["ES2022"],
+        "target": "ES2022",
+        "module": "commonjs",
+        "outDir": "./dist",
+    },
+    "include": ["src"]
+}
